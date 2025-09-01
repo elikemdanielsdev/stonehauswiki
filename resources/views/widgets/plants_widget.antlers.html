@@ -1,0 +1,12 @@
+<div
+    class="relative bg-gray-200/50 dark:bg-gray-950 dark:inset-shadow-2xs dark:inset-shadow-black w-full rounded-2xl mb-5 p-1.5 [&:has([data-ui-panel-header])]:pt-0 m-auto">
+    <div
+        class="bg-white dark:bg-gray-800 rounded-xl ring ring-gray-200 dark:ring-x-0 dark:ring-b-0 dark:ring-gray-700 shadow-ui-md px-4.5 py-5 space-y-2">
+
+        {{ collection:plants limit="5" sort="updated_at:desc" }}
+            <a href="{{ edit_url }}" class="block text-lg font-medium hover:underline">
+                {{ title }}
+            </a>
+        {{ /collection:plants }}
+    </div>
+</div>

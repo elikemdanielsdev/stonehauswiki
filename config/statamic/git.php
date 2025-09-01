@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'enabled' => env('STATAMIC_GIT_ENABLED', false),
+    'enabled' => env('STATAMIC_GIT_ENABLED', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -75,11 +75,11 @@ return [
     |
     */
 
-    'use_authenticated' => true,
+    'use_authenticated' => false,
 
     'user' => [
-        'name' => env('STATAMIC_GIT_USER_NAME', 'Spock'),
-        'email' => env('STATAMIC_GIT_USER_EMAIL', 'spock@example.com'),
+        'name' => env('STATAMIC_GIT_USER_NAME', 'elikemdanielsdev'),
+        'email' => env('STATAMIC_GIT_USER_EMAIL', 'elikemdaniels@gmail.com'),
     ],
 
     /*

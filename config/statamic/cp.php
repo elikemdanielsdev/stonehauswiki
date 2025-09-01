@@ -54,6 +54,7 @@ return [
 
     'widgets' => [
         'getting_started',
+        // ['type' => 'plants', 'width' => 100],
     ],
 
     /*
